@@ -1,12 +1,12 @@
-$highlight: #81409b;
+$highlight: #9a9a9a;
 
 .emojis {
     height: 200px;
     width: 290px;
     overflow: scroll;
     color: #222427;
-    border: 1px solid #d9d9d9;
-    background: #fff;
+    border: 1px solid #2a2f35;
+    background: #3e4347;
     z-index: 5;
 
     .emoji {
@@ -22,7 +22,8 @@ $highlight: #81409b;
     }
 
     .emoji-categories {
-        border-bottom: 1px solid #d9d9d9;
+        border-bottom: 1px solid #353535;
+        cursor: pointer;
     }
 
     .emoji-category {
@@ -38,7 +39,7 @@ $highlight: #81409b;
             border-bottom: 3px solid $highlight!important;
 
             svg {
-                fill: $highlight!important;
+                fill: #ffffff !important;
             }
         }
 
@@ -47,7 +48,7 @@ $highlight: #81409b;
             max-height: 16px;
 
             &:hover {
-                fill: #000;
+                fill: #ffffff;
             }
         }
     }
