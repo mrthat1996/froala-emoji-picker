@@ -206,7 +206,7 @@
     };
 
     $.FroalaEditor.DefineIcon('emojis', {
-        NAME: 'smile-o',
+        NAME: 'smile',
         FA5NAME: 'smile'
     });
 
